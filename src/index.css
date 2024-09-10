@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dark .bg-gray-100 {
+  background-color: #1a202c; /* Dark background color */
+}
+
+.dark .text-gray-100 {
+  color: #f7fafc; /* Light text color */
+}
