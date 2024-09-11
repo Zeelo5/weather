@@ -8,3 +8,22 @@
 .dark .text-gray-100 {
   color: #f7fafc; /* Light text color */
 }
+
+.history-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}

@@ -12,11 +12,11 @@ const LineChart = ({ forecastData, unit }) => {
 
   // Prepare data for the chart
   const data = {
-    labels: forecastData.map((entry) => entry.dt_txt),
+    labels: forecastData.map(entry => entry.dt_txt),
     datasets: [
       {
         label: temperatureLabel,
-        data: forecastData.map((entry) => entry.main.temp),
+        data: forecastData.map(entry => entry.main.temp),
         borderColor: 'rgba(75, 192, 192, 1)',
         backgroundColor: 'rgba(75, 192, 192, 0.2)',
         fill: true,
